@@ -1,0 +1,4 @@
+insert into_emp details values("raj",32,"m","21-02-2014","bangalore","7000"),
+("rani",32,"m","21-02-2014","bangalore","7000"),
+("raki",32,"m","21-02-2014","bangalore","7000");
+

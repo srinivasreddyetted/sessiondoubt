@@ -1,0 +1,156 @@
+    1  clear
+    2  mkdir folder1
+    3  ls
+    4  mkdir folder2 folder3
+    5  ls
+    6  mkdir folder3/folder4
+    7  ls folder3
+    8  pwd
+    9  mkdir f1 f1/f11 f1/f12 f1/f11/f111 f1/f11/f112
+   10  ls
+   11  ls f1
+   12  ls f1/f11
+   13  mkdir fold1
+   14  mkdir /home/azuser/fold2
+   15  clear
+   16* mkdir fold3
+   17  history
+   18  man mkdir
+   19  mkdir -v f5
+   20  clear
+   21  mkdir --help
+   22  clear
+   23  ls --help
+   24  clear
+   25  ls
+   26  ls -l
+   27  ls -a
+   28  ls -la
+   29  ls --help
+   30  clear
+   31  mkdir -p d1 d11
+   32  ls
+   33  mkdir -p dir1 dir1/dir11 dir12
+   34  ls
+   35  ls dir1
+   36  mkdir -p director1/d11 director1/d12
+   37  ls
+   38  ls director1
+   39  mkdir --help
+   40  clear
+   41  mkdir dirrr1/dirrr11
+   42  history
+   43  clear
+   44  ls -a
+   45  ls -l
+   46  ls -al
+   47  clear
+   48  history
+   50  ls
+   51  pwd
+   52  cd folder1
+   53  cd /home/azuser/f1/f11/f111
+   54  cd ..
+   55  cd
+   56  cd f1
+   57  cd
+   58  cd f1/f11/f111
+   59  cd ../..
+   60  cd
+   61  clear
+   62  touch fil1
+   63  ls
+   64  touch fil2 fil3 fil4
+   65  ls
+   66  touch fil4.txt
+   67  ls
+   68  echo "message">fil1
+   69  cat fil1
+   70  cat>fil2
+   71  cat fil2
+   72  cat>fil3
+   73  cat fil3
+   74  clear
+   75  cat >>fil3
+   76  cat fil3
+   77  cat >> fil2
+   78  cat fil2
+   79  ls
+   80  cat fil1 > fil4
+   81  cat fil4
+   82  cat fil3 >> fil4
+   83  cat fil4
+   84  clear
+   85  nano fil5
+   86  nano fil4
+   87  vi fil2
+   88  history
+   89  clear
+   90  ls
+   91  cp fil1 d1
+   92  ls d1
+   93  ls
+   94  cat fil5
+   95  cat fil3
+   96  cp fil3 fil5
+   97  cat fil5
+   98  clear
+   99  cp d1 dir1
+  100  cp -r d1 dir1
+  101  ls dir1
+  102  ls
+  103  mv fil4.txt fold3
+  104  ls
+  105  ls fold3
+  106  mv fold2 folder2
+  107  ls folder2
+  108*
+  109  ls
+  110  cat fil2 > fold2
+  111  ls
+  112  ls fold2
+  113  ls
+  114  cat fold2
+  115  clear
+  116  mv fold2 fold2
+  117  rmdir d12
+  118  ls
+  119  rmdir d2
+  120  ls fold3
+  121  ls folder2
+  122  mkdir fold56 fold66
+  123  rmdir fold56 fold66
+  124  ls
+  125  rm fol2
+  126  rm fil2
+  127  ls
+  128  clear
+  129  ls
+  130  rm folder1
+  131  rm -r folder1
+  132  ls
+  133  rm -r fold2 fold1
+  134  ls
+  135  rm -r d1 d11 d2 fil1 fil3 fold3
+  136  ls
+  137  rm -rf dir1 dir12 f1 f5 fil4 fil5
+  138  ls
+  139  clear
+  140  apt-get update
+  141  sudo apt-get update
+  142  claer
+  143  clear
+  144  sudo su
+  145  sudo apt-get install apache2
+  146  clear
+  147  sudo service apache2 status
+  148  sudo service apache2 stop
+  149  sudo service apache2 status
+  150  sudo service apache2 start
+  151  sudo service apache2 status
+  152  clear
+  153  sudo apt-get purge apache2
+  154  clear
+  155  history
+
+
